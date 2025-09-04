@@ -1,17 +1,28 @@
 * {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     padding: 0;
     margin: 0;
 }
 
 h1 {
+    background: #f4efba;
     text-align: center;
-    padding: 1em;
+    font-size: 2.5em;
+    padding: 0.4em;
 }
-h2, h3 {
-    padding: 1em 0 .5em;
+h2 {
+    font-size: 2.5em;
+    padding: 0.4em 0 .5em;
 }
+
+h3 {
+    font-size: 1.5em;
+    padding: 0.4em 0 .4em;
+}
+
 p {
+    font-size: 1em;
     padding-bottom: 1em;
 }
 .products-container{
@@ -21,6 +32,7 @@ p {
 }
 .cart-container {
     display: flex;
+    justify-content: space-around;
 }
 .checkout-container {
     max-width: 34em;
@@ -81,4 +93,15 @@ button:hover {
     padding: 0.3em;
     border: 1px solid #ccc;
     vertical-align: middle
+}
+
+.pay-summary {
+    margin-top: 2em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+ul {
+    padding-left: 1.5em;
 }
