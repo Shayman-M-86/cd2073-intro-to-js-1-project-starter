@@ -15,7 +15,7 @@ const product1 = {
     name: "Cherry",
     price: 5.00,
     quantity: 0,
-    image: "/images/cherry.jpg"
+    image: "./images/cherry.jpg"// image is here
 }
 
 const product2 = {
@@ -23,7 +23,7 @@ const product2 = {
     name: "Orange",
     price: 4.00,
     quantity: 0,
-    image: "/images/orange.jpg"
+    image: "./images/orange.jpg"// image is here
 }
 
 const product3 = {
@@ -31,7 +31,7 @@ const product3 = {
     name: "Strawberry",
     price: 6.00,
     quantity: 0,
-    image: "/images/strawberry.jpg"
+    image: "./images/strawberry.jpg"
 }
 // Add the product objects to the products array
 products.push(product1, product2, product3);
